@@ -1,0 +1,11 @@
+@require: math
+
+module NarrowMath : sig
+  direct \nsum : [] math-cmd
+end = struct
+
+  let-math \nsum =
+    let kernfL _ _ = 0pt in
+    let kernfR _ _ = -1pt in
+    math-char-with-kern MathOp `∑` kernfL kernfR
+end

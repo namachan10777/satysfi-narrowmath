@@ -1,0 +1,14 @@
+@require: stdjareport
+@require: math
+@import: narrowmath
+
+document(|
+  title = {NarrowMath};
+  author = {Nakano Masaki};
+|) '<
+  +p{
+    \eqn(
+      ${\nsum^{\infty}_{i=0}}
+    );
+  }
+>
