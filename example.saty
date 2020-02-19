@@ -8,7 +8,22 @@ document(|
 |) '<
   +p{
     \eqn(
-      ${\nsum^{\infty}_{i=0}}
+      ${\nsum^{\infty}_{i=0} \cdot \sum^{\infty}_{i=0}}
+    );
+    \eqn(
+      ${\nparen{\nabs{y_{ij, k}^2}} \cdot \paren{\abs{y_{ij, k}^2}}}
+    );
+    \eqn(
+      ${\nsqbracket{\nabs{y_{ij, k}^2}} \cdot \sqbracket{\abs{y_{ij, k}^2}}}
+    );
+    \eqn(
+      ${\nbrace{\nabs{y_{ij, k}^2}} \cdot \brace{\abs{y_{ij, k}^2}}}
+    );
+    \eqn(
+      ${\nangle-bracket{\nabs{y_{ij, k}^2}} \cdot \angle-bracket{\abs{y_{ij, k}^2}}}
+    );
+    \eqn(
+      ${\nsetsep{\bm{A^2}}{\bm{B^2}} \cdot \setsep{\bm{A^2}}{\bm{B^2}}}
     );
   }
 >
