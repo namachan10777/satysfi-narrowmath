@@ -3,6 +3,7 @@
 
 module NarrowMath : sig
   direct \nsum : [] math-cmd
+  direct \nprod : [] math-cmd
   direct \nparen : [math] math-cmd
   direct \nsqbracket : [math] math-cmd
   direct \nabs : [math] math-cmd
@@ -417,4 +418,9 @@ end = struct
     let kernfL _ _ = 0pt in
     let kernfR _ _ = -1pt in
     math-char-with-kern MathOp `∑` kernfL kernfR
+
+  let-math \nprod =
+    let kernfL _ _ = 0pt in
+    let kernfR _ _ = -1pt in
+    math-char-with-kern MathOp `∏` kernfL kernfR
 end
